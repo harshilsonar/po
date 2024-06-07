@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+        <div class="container-fluid p-0">
+            <div class="main">
+             
+            <div class="right">
+                <div class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-9 d-flex">
+
+                            
+                              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" style="height: 40px; width: 40px ;" ><i class="bi bi-list-ul symbol"></i></button>
+
+
+                             
+                              <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                
+                                <div class="offcanvas-body">
+                                  <p>Try scrolling the rest of the page to see this option in action.</p>
+                                </div>
+                              </div>
+
+
+
+                              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+
+                                <div class="offcanvas-header">
+                                  <!-- <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5> -->
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="margin-left: 350px;" ></button>
+                                </div>
+
+
+                                <div class="offcanvas-body" style="padding-top: 100px;">
+                                  <ul>
+                                        <li style="list-style: none;font-size:25px; padding-left: 40px;">Models</li>
+                                        <li style="list-style: none;font-size:25px; padding-left: 40px;">Vehicle Purchase</li>
+                                        <li style="list-style: none;font-size:25px; padding-left: 40px;">Services</li>
+                                        <li style="list-style: none;font-size:25px; padding-left: 40px;">Exprience</li>
+                                        <li style="list-style: none;font-size:25px; padding-left: 40px;">Find of Dealer</li>
+                                  </ul>
+                                </div>
+                              </div>
+
+                                <!-- <i class="bi bi-list-ul symbol"></i> -->
+                                <div class="manu1" style="font-size:25px;">
+                                <p>Menu</p>
+                                
+                                </div>
+                                <div class="logo">
+                                    PORSCHE
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+               
+
+       
+
+
+
+
+
+
+
+
+
+
+    <script>
+            $(document) .ready(function(){
+                $(".symbol").click(function(){
+                    $(".left").fadeToggle(0);
+                })
+            })
+    </script>
+</body>
+</html>

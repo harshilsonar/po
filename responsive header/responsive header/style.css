@@ -1,0 +1,39 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main
+{
+    display: flex;
+    width: 100%;
+}
+.manu1
+{
+    height: 30px;
+    width: 800px;
+    font-size: large;
+}
+.logo
+{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.symbol
+{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.pic
+{
+    width: 10%;
+    height: 10%;
+}
